@@ -10,6 +10,11 @@
 ###		section of the September 2012 ACM publication.
 ###		
 ###		My only question: Can this problem be solved "greedily"?
+###		
+### License:	This file is under no uncertain terms subject to the
+###		clauses found in LICENSE.md (within the root directory of
+###		this repository).  Please refer to it; if you did not receive
+###		a copy, please contact the author.
 
 import sys
 
@@ -55,8 +60,8 @@ def rectangleCover(w, h):
 	# Finally, return.
 	return best
 
-# Defaults.
-if __name__ == '__main__':
+if '__main__' == __name__:
+	# Defaults.
 	w = 1
 	h = 1
 	if sys.argv[1]:
